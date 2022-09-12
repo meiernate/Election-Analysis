@@ -13,9 +13,15 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code 1.38.1
 
-## Summary
+## Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
+- The county results were:
+    - Jefferson County had 10.5% of the vote and 38,855 number of votes.
+    - Denver County had 82.8% of the vote and 306,055 number of votes.
+    - Arapahoe County had 6.7% of the vote and 24,801 number of votes.
+- The largest county of the election was:
+    - Denver County, which had 82.8% of the vote and 306,055 number of votes.
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -27,6 +33,9 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes
 
-## Challenge Overview
+## Summary
+The script used to generate the congressional election results dynamically generates the County and Candidates from a CSV file. Any state can provide a simple comma seperated value file, and get their results by without modifying the script.
 
-## Challenge Summary
+The script can be modified to provide state votes instead of county for the Presidential Popular Vote.
+
+The Script can be modified to provide zip code vote instead of county for Mayoral Election votes.
